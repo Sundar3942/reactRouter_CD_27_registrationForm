@@ -1,0 +1,68 @@
+/* Write your CSS code here */
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.heading {
+  font-size: 28px;
+  color: #ea580c;
+  margin-bottom: 10px;
+}
+.registration-form {
+  box-shadow: 2px 2px 2px 2px #475569;
+  padding: 40px;
+  border-radius: 10px;
+}
+.label {
+  color: #475569;
+  font-size: 13pxs;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.input {
+  width: 100%;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  padding: 10px;
+  color: #9aa5b1;
+  outline: none;
+}
+.error-input {
+  width: 100%;
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+  border-radius: 5px;
+  padding: 10px;
+  color: #9aa5b1;
+  outline: none;
+}
+.btn-container {
+  text-align: center;
+}
+.btn {
+  margin-top: 10px;
+  background-color: #ea580c;
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.error-msg {
+  color: red;
+  font-size: 10px;
+}
+
+.submit-success {
+  box-shadow: 2px 2px 2px 2px #475569;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
